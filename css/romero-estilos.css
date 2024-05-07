@@ -1,0 +1,30 @@
+/* Estilos específicos para la página ROMERO.html */
+body {
+    font-size: 30px;
+    background: url('images/romerito.gif');
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Origenes {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    font-style: italic;
+    color: #4d3625; /* Color marrón oscuro */
+}
+
+/* Estilos para los enlaces */
+.menu a {
+    text-decoration: none;
+    color: #8b0000; /* Color granate oscuro */
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}

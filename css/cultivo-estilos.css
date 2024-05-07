@@ -1,0 +1,42 @@
+/* Estilos específicos para la página CULTIVO.html */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background: url('cultivo.gif');
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Instrucciones {
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-style: italic;
+    color: #4d3625; /* Color marrón oscuro */
+}
+
+/* Estilos para los enlaces */
+.menu a {
+    text-decoration: none;
+    color: #8b0000; /* Color granate oscuro */
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para hacer la página responsive */
+@media (max-width: 768px) {
+    body {
+        font-size: 24px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}

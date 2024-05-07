@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Aromáticos</title>
+    <!-- Agrega los enlaces a Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+        /* Estilo para el carrusel */
+        .carousel-item img {
+            max-width: auto;
+            height: 500px;
+            margin: center;
+        }
+
+        /* Estilo para hacer el sitio responsive */
+        @media (max-width: 768px) {
+            .carousel-item img {
+                max-width: 80%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .carousel-item img {
+                max-width: 90%;
+            }
+        }
+
+        /* Estilo para los banners */
+        .banner {
+            background-color: #f8f9fa; /* Color de fondo */
+            padding: 20px; /* Espaciado interno */
+            margin-bottom: 20px; /* Margen inferior */
+        }
+
+        .banner h2 {
+            margin: 0; /* Elimina el margen del encabezado */
+            font-size: 24px; /* Tamaño de fuente */
+        }
+
+        /* Estilo para la imagen de bienvenida */
+        .contenedor-imagen {
+            margin-bottom: 20px; /* Margen inferior */
+        }
+         /* Estilo para el pie de foto */
+         .pie-foto {
+            text-align: center; /* Centra el texto */
+            font-size: 16px; /* Tamaño de fuente */
+            margin-top: 10px; /* Margen superior */
+            color: #555; /* Color de texto */
+            font-weight: bold; /* Fuente en negrita */
+    </style>
+</head>
+<body>
+    <!-- Banner de ROMERO -->
+    <div align="center" class="banner">
+        <h2>ROMERO</h2>
+    </div>
+
+    <!-- Carrusel de imágenes -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="ROMERO.html"><img src="images/romero.jpg" class="d-block w-100" alt="ROMERO"></a>
+                <div class="pie-foto">¿Qué es?</div>
+            </div>
+            <div class="carousel-item">
+                <a href="USO MEDICINA.html"><img src="images/romero_aceite.jpg" class="d-block w-100" alt="USO MEDICINA"></a>
+                <div class="pie-foto">Uso medicinal</div>
+            </div>
+            <div class="carousel-item">
+                <a href="CULTIVO.html"><img src="images/cultivo romero.jpg" class="d-block w-100" alt="CULTIVO"></a>
+                <div class="pie-foto">¿Cómo se cultiva?</div>
+            </div>
+            <div class="carousel-item">
+                <a href="PROCESOS.html"><img src="images/PROCESO.jpg" class="d-block w-100" alt="PROCESOS"></a>
+                <div class="pie-foto">Proceso</div>
+            </div>
+            <div class="carousel-item">
+                <a href="CREACION.html"><img src="images/insiensios.jpg" class="d-block w-100" alt="CREACION"></a>
+                <div class="pie-foto">Creacion</div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Fin del carrusel -->
+
+ 
+
+    <!-- Imagen de bienvenida -->
+    <div align="center" class="contenedor-imagen">
+        <img src="images/bienve.gif" alt="" width="500" height="300">
+    </div>
+
+    <!-- Scripts de Bootstrap al final del body -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

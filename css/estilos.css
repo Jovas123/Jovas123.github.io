@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    background-color: #f5f5f5; /* Color de fondo suave */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Color de texto principal */
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555; /* Color de título */
+}
+
+/* Estilos específicos para la navegación */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #777; /* Color de enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave al cambiar color */
+}
+
+.menu a:hover {
+    color: #ff6347; /* Cambia el color al pasar el cursor */
+}
+
+.menu img {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Estilos específicos para la imagen */
+.contenedor-imagen {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor-imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: transform 0.3s ease; /* Transición suave al hacer zoom */
+}
+
+.contenedor-imagen img:hover {
+    transform: scale(1.1); /* Zoom al pasar el cursor */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777; /* Color de texto del pie de página */
+}
+
+/* Estilo de aparición al hacer scroll */
+.contenedor-imagen img.aparecer {
+    opacity: 0; /* Inicia invisible */
+    transition: opacity 0.5s ease; /* Transición suave */
+}
+
+/* Estilo al hacer scroll */
+.contenedor-imagen img.aparecer {
+    opacity: 1; /* Aparece gradualmente */
+}
